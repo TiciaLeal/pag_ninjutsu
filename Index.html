@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bujinkan Ningensei Dojo</title>
+</head>
+<body>
+    <header>
+        <h1>BUDŌ TAIJUTSU</h1>
+        <h2>NINJUTSU</h2>
+        <h3>Bahía Blanca, Provincia de Buenos Aires, Argentina</h3>
+        <img src="fotos_ninjutsu/soke_ninja.jpg" alt="Portada_fondo" alt="Masaaki Hatsumi Ninja" width="700" height="800">
+    </header>
+    <main> 
+    </main>
+   <p>En Bujinkan (Casa del Divino Guerrero o Guerrero Espiritual) estudiamos 9 estilos antiguos de artes marciales de origen japonés.</p>
+   <p>Estas tradiciones contemplan conocimientos ninja y samurai, y cada una tiene una especialidad o una serie de especialidades concretas, todo embuido dentro de lo que se conoce como Budō Taijutsu.</p>
+   <p>No se trata de un deporte marcial, sino de un arte de guerra no competitivo que busca el desarrollo integral de la persona.</p>
+      <br>
+    <img src="fotos_ninjutsu/soke_tecnica.jpg" alt="Imagen Masaaki Hatsumi Sensei realizando técnica" width="800" height="600">
+    <p>"El Ninjutsu no es un acto de violencia sino aprender a poner un límite al otro" Masaaki Hatsumi Sensei</p>
+    <br>
+    <img src="fotos_ninjutsu/yo_juanma2.jpg" alt="Imagen Sensei Shihan Patricia Leal y Dai Shihan Juan Manuel Gutierrez" width="300" height="300">
+    <p>Instructora Patricia Guillermina Leal, Shihan 10º Dan</p>
+    <p>Bujinkan Ningensei Dojo Bahía Blanca</p>
+    <ul><!-- ul es una lista desordenada -->
+        <li>Acondicionamiento físico</li>
+        <li>Técnicas Tradicionales sin armas y con armas</li>
+        <li>Defensa Personal</li>
+        <li>Filosofía y Cultura</li>
+        <li>Campamentos y Seminarios</li>
+        <li>Credenciales y Diplomas Oficiales</li>
+      </ul>
+    <p>CLASES PARA ADULTOS Y ADOLESCENTES, VARIOS HORARIOS</p>
+    <p>CLASES PARA NIÑOS Y NIÑAS DE 6 A 12 AÑOS</p>
+    <p>WHATSAPP: 2916449956</p>
+    <br>
+    <!--FORMULARIOS-->
+    <p>CONSULTA ONLINE</p>
+    <p>Complete y envíe el formulario y pronto recibirá una respuesta:</p>
+    <form action="" method="" enctype="">
+        <div>
+          <label for="nombre">Nombre:</label><!--si en for no pongo "nombre" no deriva automaticamente
+         al input al usuario tonto cuando hace clic en la etiqueta-->
+          <input type="text" id="nombre" placeholder="Ingrese su nombre" name="nombre">
+          <!--en el input el tipo es texto porque el usuario va a ingresar ahi un string, su info.
+         El id se relaciona al for. El placeholder es para poner un texto guía dentro del cuadro del input.
+       El name es para guardarlo como variable para llamarla despues-->
+        </div>
+        <br>
+        <div>
+          <label for="">Email:</label>
+          <input type="email" id="email" placeholder="Ingrese su email" name="email">
+        </div>
+        <br>
+        <div>
+          <label for="experiencia">¿Tiene experiencia marcial?</label><!--select hace que haya un menú desplegable donde
+           se puede elegir una sola opción-->
+          <select name="experiencia" id="experiencia">
+            <option value="Negación">No</option><!--option hace que se puedan colocar opciones-->
+            <option value="Afirmación">Sí, en Bujinkan</option>
+            <option value="Otro">Sí, en otro arte marcial</option>
+          </select>
+        </div>
+        <br>
+ 
+        <div>
+          <label for="Turnos">Marque el turno por el cuál desea consultar</label>
+          <br>
+          <label for="Adultos">Adultos</label>
+          <input type="checkbox" name="Turno" id="Adultos" value="Adultos"><!--checkbox hace que haya una serie de opciones
+           que pueden tildarse y se puede tildar mas de una. Ponemos Hobby en name porque esas opciones
+           se refieren a lo mismo, están relacionadas. El value hace que esa opción se guarde en Hobby-->
+           <br> 
+          <label for="Infantil">Infantil</label>
+          <input type="checkbox" name="Turno" id="Infantil" value="Infantil">
+        </div>
+        <br>
+        <div>
+          <label for="consulta">Consulta</label>
+          <br>
+          <textarea name="comentario" id="comentario" placeholder="Escriba su consulta aqui" cols="30" rows="10"></textarea>
+        </div><!--textarea hace un recuadro para poder ingresar un texto largo. Cols es el ancho y rows el largo-->
+ 
+        <div>
+          <button>Enviar</button><!--otra forma para poner un botón de enviar-->
+       </div>
+       <br>
+          <!-- LINKS-ENLACES-->
+    <a href="Dojo.html">Mas información del dojo</a> <!--escribiendo la a y haciendo enter aparece todo lo relacionado a
+        href donde debemos indicar la ruta a donde queremos ir, navegar, en este caso es
+        un enlace interno o local, de nuestra pag-->
+        <br>
+        <a href="Arte.html">Mas información del arte</a>
+        <br>
+        <a href="Ventas.html">Productos marciales a la venta</a>
+        <br>
+        <a href="https://www.instagram.com/bujinkan_patricia/"target="_bLank">Instagram</a><!-- cuando colocamos una ruta externa a
+        nuestra página aparece el https y para que no se cierre nuestro sitio al derivarlo a la otra pagina
+        lo que hacemos es colocar target="_bLanck" y de esa forma el enlace se abre en una pestaña nueva-->
+        <br>
+        <a href="https://www.facebook.com/bujinkanningenseidojo"target="_bLank">Facebook</a>
+        <br>
+        <br>
+</body>
+</html>
