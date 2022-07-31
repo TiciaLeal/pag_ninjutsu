@@ -1,0 +1,37 @@
+/*esto es un comentario en css*/
+
+/* el * (asterisco) es un selector universal, se va a aplicar a todo nuestro codigo html, y
+es buena práctica que esas características las coloquemos al inicio del codigo css*/
+/* Selector universal (*). Nos va a servir para resetear o pisar algunos estilos (propiedades) que
+aplican los navegadores por defecto*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+} /*se aplican estas caracteristicas a todo el cuerpo*/
+
+p {
+    color: white;
+} /*se aplica esta caracteristica a todos los parrafos, a todo este tipo de elemento*/
+
+/*este tipo de selector, punto y un nombre, es el que mas se usa*/
+.parrafo_violeta {
+    color: rgb(168, 95, 236);
+} /*se aplica esta caracteristica solo a los parrafos que tengan este nombre en mi codigo html,
+es decir a esta clase dentro de este tipo de elemento*/
+
+.parrafo_verde {
+    color: rgb(55, 241, 55);
+} /*se aplica esta caracteristica solo a los parrafos que tengan este nombre en mi codigo html*/
+
+/*# es un id, es un selector unico, las caracteristicas que se elijan se aplicaránsolo a este elemento*/
+#titulo_inicial {
+    font-size: 50px;
+    text-align: center;
+} /*las caractiristicas elegidas se aplican solo a este elemento, titulo en este caso,
+al que le pongo este id y este nombre en mi cod html*/
