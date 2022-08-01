@@ -32,10 +32,15 @@ es decir a esta clase dentro de este tipo de elemento*/
 
 /* # es un id, es un selector unico, las caracteristicas que se elijan se aplicaránsolo a este elemento*/
 #titulo_inicial {
-    font-size: 50px;
+    font-size: 100px;
     text-align: center;
 } /*las caractiristicas elegidas se aplican solo a este elemento, titulo en este caso,
 al que le pongo este id y este nombre en mi cod html*/
+
+#titulo_secundario {
+    font-size: 50px;
+    text-align: left;
+}
 
 /* Esto es para hacer colores degradados */
 .gradiente {
