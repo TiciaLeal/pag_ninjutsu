@@ -10,18 +10,20 @@ aplican los navegadores por defecto*/
     box-sizing: border-box;
 }
 
+#contenido { width: 800px; margin: 0 auto; }
+
 body {
     background-color: black; /* background-color aplica color solido de fondo */
-    color: white; /* color aplica color solido al texto*/
-} /*se aplican estas caracteristicas a todo el cuerpo*/
+    color: white /* color aplica color solido al texto*/; font-size: large /* tamaño de letra */; 
+} /*se aplican estas caracteristicas a todo el cuerpo */
 
 p {
-    color: white;
-} /*se aplica esta caracteristica a todos los parrafos, a todo este tipo de elemento*/
+    text-align: justify;
+}
 
 /*este tipo de selector, punto y un nombre, es el que mas se usa*/
 .parrafo_violeta {
-    color: rgb(168, 95, 236); /* color picker es una pag, herramienta,
+    color: rgb(183, 111, 251); /* color picker es una pag, herramienta,
     donde da los colores en diferentes codigos en los diferentes formatos */
 } /*se aplica esta caracteristica solo a los parrafos que tengan este nombre en mi codigo html,
 es decir a esta clase dentro de este tipo de elemento*/
@@ -30,16 +32,61 @@ es decir a esta clase dentro de este tipo de elemento*/
     color: rgb(55, 241, 55);
 } /*se aplica esta caracteristica solo a los parrafos que tengan este nombre en mi codigo html*/
 
+.texto_amarillo {
+    color: rgb(230, 214, 35);
+} /*se aplica esta caracteristica solo al texto que tenga este nombre en mi codigo html*/
+
+.texto_rojo {
+    color: rgb(245, 62, 62);
+} /*se aplica esta caracteristica solo al textos que tenga este nombre en mi codigo html*/
+
+.texto_lila {
+    color: rgb(210, 128, 251);
+}
+
+.texto_celeste {
+    color: rgb(104, 147, 199);
+}
+
+.texto_naranja {
+    color:rgb(209, 143, 76)
+}
+
 /* # es un id, es un selector unico, las caracteristicas que se elijan se aplicaránsolo a este elemento*/
 #titulo_inicial {
-    font-size: 100px;
     text-align: center;
+    font-size: 100px;
+    font-style: normal ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 } /*las caractiristicas elegidas se aplican solo a este elemento, titulo en este caso,
 al que le pongo este id y este nombre en mi cod html*/
 
 #titulo_secundario {
-    font-size: 50px;
     text-align: left;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#titulo_tercera_pag {
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#titulo_terciario {
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#titulo_segunda_pag {
+    font-size: 50px;
+    text-align: center;
+    font-style:normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* Esto es para hacer colores degradados */
@@ -48,3 +95,9 @@ al que le pongo este id y este nombre en mi cod html*/
 } /* Se usa background-image y se utilizan las herramientas de la página cssgradient.io y
 armamos el degradado con los colores y de la forma que nos guste y luego copiamos el código
 que da como resultado y lo pegamos acá */
+
+a{color: inherit;}
+
+video {
+    border: 3px solid white;
+}
