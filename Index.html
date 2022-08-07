@@ -15,29 +15,30 @@
 </head>
 
 <body>
-  <header>
-    <img src="fotos_ninjutsu/logo_ningensei.jpg" alt="Logo dojo" alt="Ningensei Dojo Logo" width="30" height="90"> <!--imagen-->
-    <br>
-    <nav> <!--para navegar dentro del sitio web-->
-      <ol>
-        <!-- ol es una lista ordenada -->
-        <li><a href="Index.html" class="texto_amarillo">Inicio</a><!--para acceder al inicio del sitio web--></li>
-        <li><a href="Dojo.html" class="texto_amarillo">Dojo</a><!--enlace interno del sitio web, para navegar a otra pág dentro del sitio--></li>
-        <li><a href="Arte.html" class="texto_amarillo">Arte Marcial</a><!--enlace interno para navegar por el sitio web--></li>
-      </ol>
+  <header class="header_propiedades">
+    <img src="fotos_ninjutsu/logo_ningensei.jpg" alt="Logo dojo" alt="Ningensei Dojo Logo" width="35" height="95"> <!--imagen-->
+    <nav class="nav_propiedades"> <!--para navegar dentro del sitio web-->
+      <ul class="texto_amarillo">
+        <!-- ul es una lista desordenada -->
+        <li><a href="Index.html">Inicio</a><!--para acceder al inicio del sitio web--></li>
+        <li><a href="Dojo.html">Dojo</a><!--enlace interno del sitio web, para navegar a otra pág dentro del sitio--></li>
+        <li><a href="Arte.html">Arte Marcial</a><!--enlace interno para navegar por el sitio web--></li>
+      </ul>
     </nav>
     <br>
   </header>
+  <br>
   <main>
     <section>
       <div>
         <h1 id="titulo_inicial">BUDŌ TAIJUTSU</h1><!--Título principal-->
-        <h2 id="titulo_secundario" class="texto_rojo">NINJUTSU</h2><!--Título secundario-->
         <h3 id="titulo_terciario">Bahía Blanca, Provincia de Buenos Aires, Argentina</h3><!--Tercer título-->
       </div>
+    </section>
+    <section>
       <div>
         <img src="fotos_ninjutsu/soke_ninja.jpg" alt="Portada_fondo" alt="Masaaki Hatsumi Ninja" width="700"
-          height="700"><!--Imagen-->
+          height="800"><!--Imagen-->
       </div>
     </section>
     <section>
@@ -52,7 +53,7 @@
     <br>
     <section>
       <div>
-        <img src="fotos_ninjutsu/soke_tecnica.jpg" alt="Imagen Masaaki Hatsumi Sensei realizando técnica" width="800"
+        <img src="fotos_ninjutsu/soke_tecnica.jpg" alt="Imagen Masaaki Hatsumi Sensei realizando técnica" width="750"
           height="600"><!--Imagen-->
       </div>
       <div>
@@ -86,19 +87,18 @@
         <p>CLASES PARA NIÑOS Y NIÑAS DE 6 A 12 AÑOS</p><!--Párrafo-->
       </div>
       <br>
-      <div>
-        <img src="fotos_ninjutsu/logo_whatsapp.jpg" alt="Logo Whatsapp" width="50" height="50"><!--Imagen ícono de whatsapp-->
-      </div>
-      <div>
-        <p class="parrafo_verde">WHATSAPP: 2916449956</p><!--Párrafo-->
-      </div>
+      <section>
+        <div>
+            <a href="https://wa.me/5492916449956" target="_bLank" class="parrafo_verde">
+            <img src="fotos_ninjutsu/logo_whatsapp.jpg" alt="Logo Whatsapp" width="50" height="50">WHATSAPP: 291 6449956</a><!--Imagen ícono de whatsapp-->
+        </div>
     </section>
     <br>
     <br>
     <section>
       <!--FORMULARIO-->
       <div>
-        <p>CONSULTA ONLINE</p>
+        <p class="texto_consulta">CONSULTA ONLINE</p>
         <p>Complete y envíe el formulario y pronto recibirá una respuesta:</p>
         <form action="" method="" enctype="">
       </div>
@@ -112,7 +112,7 @@
       </div>
       <br>
       <div>
-        <label for="">Email:</label>
+        <label for="">e-mail</label>
         <input type="email" id="email" placeholder="Ingrese su email" name="email">
       </div>
       <br>
@@ -170,6 +170,7 @@
     <a href="https://www.facebook.com/NinjutsuBahiaBlanca" target="_bLank" class="texto_naranja"><img
       src="fotos_ninjutsu/logo_pag_facebook.jpg" alt="Logo Página Facebook" width="50" height="50">Facebook Página</a>
     <!--Link externo que lleva a la página de Facebook e ícono del mismo-->
+    <br>
     <br>
     <br>
     <p>Todos los derechos reservados</p><!--Párrafo-->
