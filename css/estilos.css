@@ -46,8 +46,9 @@ a {color: inherit; /*para que el color de los enlaces se vean del color que yo q
 }
 
 .text_training_propiedades {
-    margin-left: 1rem;
-    line-height: 2rem;
+    margin-left: 2rem;
+    line-height: 2.3rem;
+    list-style: none;
 }
 
 /*p {
@@ -71,6 +72,11 @@ es decir a esta clase dentro de este tipo de elemento*/
     color: rgb(230, 214, 35);
     list-style: none; /*para que desaparezcan las viñetas de los textos donde haya listas*/
 } /*se aplica esta caracteristica solo al texto que tenga este nombre en mi codigo html*/
+
+.texto_amarillo2 {
+    color: rgb(230, 214, 35);
+    text-align: center;
+}
 
 .texto_rojo {
     color: rgb(223, 48, 48);
@@ -157,18 +163,22 @@ video {
     border: 3px solid white;
 }
 
-
-.redes_propiedades {
-    width: 100%;
+.logo_whatsapp {
     display: flex;
-    flex-direction: row; /* es para poner los enlaces horizontales*/
-    justify-content: space-between;
-    margin: 2rem;
-    font-size: 20px;
+    justify-content: center
 }
 
-.Insta_propiedades {
-    flex-direction: column;
+.texto_whatsapp {
+    display: flex;
+    justify-content: center;
+}
+
+.redes_propiedades {
+    display: flex;
+    /* flex-direction: row; es para poner los enlaces horizontales*/
+    justify-content: space-around;
+    margin-inline: 4.3rem;
+    font-size: 20px;
 }
 
 .derechos_propiedades {
