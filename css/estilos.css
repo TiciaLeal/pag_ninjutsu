@@ -36,12 +36,27 @@ a {color: inherit; /*para que el color de los enlaces se vean del color que yo q
     line-height: 2rem;
 }
 
-p {
-    text-align: justify;
+.training_propiedades {
+    width: 100%;
+    display: flex;
+    /*flex-direction: row, es para poner los enlaces horizontales,
+    columnas, ahora no lo uso porque quiero que sean verticales*/
+    justify-content: center;
+    margin: 2rem;
 }
+
+.text_training_propiedades {
+    margin-left: 1rem;
+    line-height: 2rem;
+}
+
+/*p {
+    text-align: justify;
+}*/
 
 /*este tipo de selector, punto y un nombre, es el que mas se usa*/
 .parrafo_violeta {
+    text-align: center;
     color: rgb(183, 111, 251); /* color picker es una pag, herramienta,
     donde da los colores en diferentes codigos en los diferentes formatos */
 } /*se aplica esta caracteristica solo a los parrafos que tengan este nombre en mi codigo html,
@@ -49,7 +64,8 @@ es decir a esta clase dentro de este tipo de elemento*/
 
 .parrafo_verde {
     color: rgb(55, 241, 55);
-} /*se aplica esta caracteristica solo a los parrafos que tengan este nombre en mi codigo html*/
+    text-decoration: none
+} /*se aplican estas caracteristicas solo a los parrafos que tengan este nombre en mi codigo html*/
 
 .texto_amarillo {
     color: rgb(230, 214, 35);
@@ -57,7 +73,8 @@ es decir a esta clase dentro de este tipo de elemento*/
 } /*se aplica esta caracteristica solo al texto que tenga este nombre en mi codigo html*/
 
 .texto_rojo {
-    color: rgb(245, 62, 62);
+    color: rgb(223, 48, 48);
+    text-align: justify;
 } /*se aplica esta caracteristica solo al textos que tenga este nombre en mi codigo html*/
 
 .texto_lila {
@@ -76,6 +93,21 @@ es decir a esta clase dentro de este tipo de elemento*/
     color:rgb(209, 143, 76)
 }
 
+.texto_blanco {
+    text-align: justify;
+    color: white;
+}
+
+.texto_blanco_centrado {
+    text-align: center;
+    color: white;
+}
+
+.texto_blanco_izq {
+    text-align: left;
+    color: white;
+}
+
 /* # es un id, es un selector unico, las caracteristicas que se elijan se aplicaránsolo a este elemento*/
 #titulo_inicial {
     text-align: center;
@@ -86,7 +118,7 @@ es decir a esta clase dentro de este tipo de elemento*/
 al que le pongo este id y este nombre en mi cod html*/
 
 #titulo_secundario {
-    text-align: left;
+    text-align: center;
     font-size: 70px;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -123,4 +155,28 @@ que da como resultado y lo pegamos acá */
 
 video {
     border: 3px solid white;
+}
+
+
+.redes_propiedades {
+    width: 100%;
+    display: flex;
+    flex-direction: row; /* es para poner los enlaces horizontales*/
+    justify-content: space-between;
+    margin: 2rem;
+    font-size: 20px;
+}
+
+.Insta_propiedades {
+    flex-direction: column;
+}
+
+.derechos_propiedades {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    line-height: 2rem;
+    font-size: small;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
