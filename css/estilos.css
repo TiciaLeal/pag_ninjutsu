@@ -18,12 +18,12 @@ body {
 } /*se aplican estas caracteristicas a todo el cuerpo */
 
 .header_propiedades {
-    width: 100%;
     display: flex;
     /*flex-direction: row, es para poner los enlaces horizontales,
     columnas, ahora no lo uso porque quiero que sean verticales*/
     justify-content: center;
     margin: 2rem;
+    align-items: center;
 }
 
 /*hover es para que cuando pasamos el cursor sobre los enlaces (locales en este caso) el texto cambie de color*/
@@ -42,24 +42,18 @@ a {color: inherit; /*para que el color de los enlaces se vean del color que yo q
 }
 
 .training_propiedades {
-    width: 100%;
     display: flex;
     /*flex-direction: row, es para poner los enlaces horizontales,
     columnas, ahora no lo uso porque quiero que sean verticales*/
     justify-content: center;
     margin: 2rem;
+    align-items: center;
 }
 
 .text_training_propiedades {
     margin-left: 2rem;
     line-height: 2.3rem;
     list-style: none;
-}
-
-.escuelas {
-    display: flex;
-    flex-direction: column;
-    margin-left: 19rem;
 }
 
 /*p {
@@ -78,6 +72,11 @@ es decir a esta clase dentro de este tipo de elemento*/
     color: rgb(55, 241, 55);
     text-decoration: none
 } /*se aplican estas caracteristicas solo a los parrafos que tengan este nombre en mi codigo html*/
+
+.parrafo_verdoso {
+    color: rgb(141, 249, 218);
+    text-align: center;
+}
 
 .texto_amarillo {
     color: rgb(230, 214, 35);
@@ -113,6 +112,10 @@ es decir a esta clase dentro de este tipo de elemento*/
 .texto_blanco {
     text-align: justify;
     color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 1rem;
 }
 
 .texto_blanco_centrado {
@@ -172,7 +175,41 @@ armamos el degradado con los colores y de la forma que nos guste y luego copiamo
 que da como resultado y lo pegamos acá */
 
 video {
+    display: block;
+    margin:auto;
     border: 3px solid white;
+    ;
+}
+
+.escuelas_propiedades {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: center;
+}
+
+.parrafo_escuelas{
+    margin-left: 1rem;
+    line-height: 1.5rem;
+}
+
+.lista_escuelas {
+    margin-left: 2rem;
+    line-height: 1.5rem;
+    list-style: decimal;   
+}
+
+.lista_desordenada {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    line-height: 1.5rem;
+}
+
+/*estilo de borde de imagen*/
+.imag_ninja {
+    border: 2px ridge rgb(180, 171, 46);
+    border-radius: 10px; 
 }
 
 .logo_whatsapp {
@@ -201,4 +238,13 @@ video {
     font-size: small;
     font-style: normal;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imag {
+    display: block;
+    margin:auto;
+}
+
+.margen_formulario {
+    margin: 5rem;
 }
