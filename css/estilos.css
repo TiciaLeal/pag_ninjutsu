@@ -10,7 +10,7 @@ aplican los navegadores por defecto*/
     box-sizing: border-box;
 }
 
-#contenido { width: 900px; margin: 0 auto; }
+#contenido { width: 800px; margin: 0 auto; }
 
 body {
     background-color: black; /* background-color aplica color solido de fondo */
@@ -185,14 +185,13 @@ video {
     display: block;
     margin:auto;
     border: 3px solid white;
-    ;
 }
 
 .escuelas_propiedades {
     display: flex;
     align-items: center;
-    margin-left: 8rem;
-    margin-right: 8rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     margin-top: 3rem;
     justify-content: center;
 }
@@ -211,7 +210,7 @@ video {
 .lista_desordenada {
     margin-left: 6rem;
     margin-right: 6rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
 }
 
 /*estilo de borde de imagen*/
@@ -268,4 +267,34 @@ video {
 }
 
 
+@media (max-width:600px) {
+    body {
+        font-size: xx-large;
+    }
+    .parrafo_verde {
+        font-size: xx-large
+    }
+    .texto_celeste {
+        font-size: xx-large
+    }
+    .texto_lila {
+        font-size: xx-large
+    }
+    .texto_naranja {
+        font-size: xx-large
+    }
+    .derechos_propiedades {
+        font-size: x-large
+    }
+    .escuelas_propiedades {
+        flex-direction: column;
+    }
+    .parrafo_escuelas {
+        margin-top: 2rem;
+        line-height: 2rem;
+    }
+    .lista_escuelas { 
+        line-height: 2rem;
+    }
+}
     
